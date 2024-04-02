@@ -3,7 +3,8 @@
 This repository contains all the code explained in this [**YouTube playlist**](https://www.youtube.com/playlist?list=PLWpsZlKx38t9SEQu6_AbzBoHeQbApIcjJ)
 
 ### Scripts
-*Using **Makefile***: https://makefiletutorial.com/
+
+\*Using **Makefile\***: https://makefiletutorial.com/
 
 Installs composer dependencies
 
@@ -46,6 +47,7 @@ make ssh-be
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 symfony new proyect-symfony
+ln -s proyect-symfony/public public
 ```
 
 ### Si ya tenemos symfony en el proyecto
